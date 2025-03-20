@@ -1,11 +1,33 @@
-namespace Matrix_Tests
+using Matrix2dLib;
+
+public class Matrix2dTests
 {
-    [TestClass]
-    public class UnitTest1
+    [TestMethod]
+    public void TestIdentityMatrix()
     {
-        [TestMethod]
-        public void TestMethod1()
-        {
-        }
+        var id = Matrix2d.Id;
+        Assert.Equals(new Matrix2d(1, 0, 0, 1), id);
+    }
+
+    [TestMethod]
+    public void TestAddition()
+    {
+        var m1 = new Matrix2d(1, 2, 3, 4);
+        var m2 = new Matrix2d(4, 3, 2, 1);
+        Assert.Equals(new Matrix2d(5, 5, 5, 5), m1 + m2);
+    }
+
+    [TestMethod]
+    public void TestDeterminant()
+    {
+        var m = new Matrix2d(1, 2, 3, 4);
+        Assert.Equals(-2, m.Det());
+    }
+
+    [TestMethod]
+    public void TestTranspose()
+    {
+        var m = new Matrix2d(1, 2, 3, 4);
+        Assert.Equals(new Matrix2d(1, 3, 2, 4), Matrix2d.Transpose(m));
     }
 }

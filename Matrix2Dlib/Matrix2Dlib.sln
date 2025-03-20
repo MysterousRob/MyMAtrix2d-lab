@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Matrix2Dlib", "Matrix2Dlib\Matrix2Dlib.csproj", "{8B454B7C-936E-4EE7-A4DD-53DE2CBCB106}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Matrix2Dlib", "Matrix2Dlib\Matrix2Dlib.csproj", "{8B454B7C-936E-4EE7-A4DD-53DE2CBCB106}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Matrix2DConsoleAPp", "Matrix2DConsoleAPp\Matrix2DConsoleAPp.csproj", "{D047F628-31F9-4EE3-9D38-EA371DA89FB1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Matrix2DConsoleAPp", "Matrix2DConsoleAPp\Matrix2DConsoleAPp.csproj", "{D047F628-31F9-4EE3-9D38-EA371DA89FB1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Matrix-Tests", "Matrix-Tests\Matrix-Tests.csproj", "{3BCE75A3-DE16-40C7-8552-6863335AD589}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Matrix-Tests", "Matrix-Tests\Matrix-Tests.csproj", "{3BCE75A3-DE16-40C7-8552-6863335AD589}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
